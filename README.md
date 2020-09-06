@@ -1,5 +1,5 @@
 #   			 Logstash 			->			 elastic search 	-> 						Kibana
-   port :    		9600							9200								5601/app/kibana	
+##   port :    		9600							9200								5601/app/kibana	
 		 (logstash/bin/logstash.conf)						 					update kibana.yml -> uncomment elasticsearch port	
 		    	--input																
 		    	--filter
